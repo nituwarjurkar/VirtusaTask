@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A3A91FA2A3C201E00146062 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3A91F92A3C201E00146062 /* AppDelegate.swift */; };
+		4A3A91FC2A3C201E00146062 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3A91FB2A3C201E00146062 /* SceneDelegate.swift */; };
+		4A3A91FE2A3C201E00146062 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3A91FD2A3C201E00146062 /* ViewController.swift */; };
+		4A3A92012A3C201E00146062 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A3A91FF2A3C201E00146062 /* Main.storyboard */; };
+		4A3A92032A3C202100146062 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A3A92022A3C202100146062 /* Assets.xcassets */; };
+		4A3A92062A3C202100146062 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A3A92042A3C202100146062 /* LaunchScreen.storyboard */; };
+		4A3A92112A3C202200146062 /* Virtusa_TaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3A92102A3C202200146062 /* Virtusa_TaskTests.swift */; };
+		4A3A921B2A3C202200146062 /* Virtusa_TaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3A921A2A3C202200146062 /* Virtusa_TaskUITests.swift */; };
+		4A3A921D2A3C202200146062 /* Virtusa_TaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3A921C2A3C202200146062 /* Virtusa_TaskUITestsLaunchTests.swift */; };
+		4A3A922B2A3C205F00146062 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3A922A2A3C205F00146062 /* ViewModel.swift */; };
+		4A3A92302A3C209100146062 /* HttpClientProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3A922D2A3C209100146062 /* HttpClientProtocol.swift */; };
+		4A3A92312A3C209100146062 /* HttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3A922E2A3C209100146062 /* HttpClient.swift */; };
+		4A3A92322A3C209100146062 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3A922F2A3C209100146062 /* Constants.swift */; };
+		4A3A92372A3C20F600146062 /* HttpClientMockupProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3A92332A3C20F600146062 /* HttpClientMockupProtocol.swift */; };
+		4A3A92382A3C20F600146062 /* Posts.json in Resources */ = {isa = PBXBuildFile; fileRef = 4A3A92342A3C20F600146062 /* Posts.json */; };
+		4A3A92392A3C20F600146062 /* PostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3A92352A3C20F600146062 /* PostViewModel.swift */; };
+		4A3A923A2A3C20F600146062 /* Mockable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3A92362A3C20F600146062 /* Mockable.swift */; };
+		4A3A923C2A3C212700146062 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3A923B2A3C212700146062 /* DataModel.swift */; };
+		4A3A92432A3C242300146062 /* UserListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3A92412A3C242300146062 /* UserListTableViewCell.swift */; };
+		4A3A92442A3C242300146062 /* UserListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A3A92422A3C242300146062 /* UserListTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4A3A920D2A3C202200146062 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A3A91EE2A3C201E00146062 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A3A91F52A3C201E00146062;
+			remoteInfo = Virtusa_Task;
+		};
+		4A3A92172A3C202200146062 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A3A91EE2A3C201E00146062 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A3A91F52A3C201E00146062;
+			remoteInfo = Virtusa_Task;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4A3A91F62A3C201E00146062 /* Virtusa_Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Virtusa_Task.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A3A91F92A3C201E00146062 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4A3A91FB2A3C201E00146062 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4A3A91FD2A3C201E00146062 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4A3A92002A3C201E00146062 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4A3A92022A3C202100146062 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A3A92052A3C202100146062 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4A3A92072A3C202100146062 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A3A920C2A3C202200146062 /* Virtusa_TaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Virtusa_TaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A3A92102A3C202200146062 /* Virtusa_TaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Virtusa_TaskTests.swift; sourceTree = "<group>"; };
+		4A3A92162A3C202200146062 /* Virtusa_TaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Virtusa_TaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A3A921A2A3C202200146062 /* Virtusa_TaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Virtusa_TaskUITests.swift; sourceTree = "<group>"; };
+		4A3A921C2A3C202200146062 /* Virtusa_TaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Virtusa_TaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4A3A922A2A3C205F00146062 /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		4A3A922D2A3C209100146062 /* HttpClientProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpClientProtocol.swift; sourceTree = "<group>"; };
+		4A3A922E2A3C209100146062 /* HttpClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpClient.swift; sourceTree = "<group>"; };
+		4A3A922F2A3C209100146062 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4A3A92332A3C20F600146062 /* HttpClientMockupProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpClientMockupProtocol.swift; sourceTree = "<group>"; };
+		4A3A92342A3C20F600146062 /* Posts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Posts.json; sourceTree = "<group>"; };
+		4A3A92352A3C20F600146062 /* PostViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostViewModel.swift; sourceTree = "<group>"; };
+		4A3A92362A3C20F600146062 /* Mockable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mockable.swift; sourceTree = "<group>"; };
+		4A3A923B2A3C212700146062 /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		4A3A92412A3C242300146062 /* UserListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListTableViewCell.swift; sourceTree = "<group>"; };
+		4A3A92422A3C242300146062 /* UserListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserListTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A3A91F32A3C201E00146062 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A3A92092A3C202200146062 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A3A92132A3C202200146062 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A3A91ED2A3C201E00146062 = {
+			isa = PBXGroup;
+			children = (
+				4A3A91F82A3C201E00146062 /* Virtusa_Task */,
+				4A3A920F2A3C202200146062 /* Virtusa_TaskTests */,
+				4A3A92192A3C202200146062 /* Virtusa_TaskUITests */,
+				4A3A91F72A3C201E00146062 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A3A91F72A3C201E00146062 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A3A91F62A3C201E00146062 /* Virtusa_Task.app */,
+				4A3A920C2A3C202200146062 /* Virtusa_TaskTests.xctest */,
+				4A3A92162A3C202200146062 /* Virtusa_TaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A3A91F82A3C201E00146062 /* Virtusa_Task */ = {
+			isa = PBXGroup;
+			children = (
+				4A3A92402A3C23C000146062 /* Delegate */,
+				4A3A923F2A3C23B400146062 /* Controller */,
+				4A3A923E2A3C239E00146062 /* Model */,
+				4A3A923D2A3C239300146062 /* View */,
+				4A3A92292A3C204F00146062 /* ViewModel */,
+				4A3A92452A3C286800146062 /* Storyboard */,
+				4A3A922C2A3C207C00146062 /* NetworkManager */,
+				4A3A92022A3C202100146062 /* Assets.xcassets */,
+				4A3A92072A3C202100146062 /* Info.plist */,
+			);
+			path = Virtusa_Task;
+			sourceTree = "<group>";
+		};
+		4A3A920F2A3C202200146062 /* Virtusa_TaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				4A3A92102A3C202200146062 /* Virtusa_TaskTests.swift */,
+				4A3A92332A3C20F600146062 /* HttpClientMockupProtocol.swift */,
+				4A3A92362A3C20F600146062 /* Mockable.swift */,
+				4A3A92342A3C20F600146062 /* Posts.json */,
+				4A3A92352A3C20F600146062 /* PostViewModel.swift */,
+			);
+			path = Virtusa_TaskTests;
+			sourceTree = "<group>";
+		};
+		4A3A92192A3C202200146062 /* Virtusa_TaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4A3A921A2A3C202200146062 /* Virtusa_TaskUITests.swift */,
+				4A3A921C2A3C202200146062 /* Virtusa_TaskUITestsLaunchTests.swift */,
+			);
+			path = Virtusa_TaskUITests;
+			sourceTree = "<group>";
+		};
+		4A3A92292A3C204F00146062 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4A3A922A2A3C205F00146062 /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4A3A922C2A3C207C00146062 /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				4A3A922F2A3C209100146062 /* Constants.swift */,
+				4A3A922E2A3C209100146062 /* HttpClient.swift */,
+				4A3A922D2A3C209100146062 /* HttpClientProtocol.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		4A3A923D2A3C239300146062 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4A3A92412A3C242300146062 /* UserListTableViewCell.swift */,
+				4A3A92422A3C242300146062 /* UserListTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4A3A923E2A3C239E00146062 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4A3A923B2A3C212700146062 /* DataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4A3A923F2A3C23B400146062 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4A3A91FD2A3C201E00146062 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4A3A92402A3C23C000146062 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				4A3A91F92A3C201E00146062 /* AppDelegate.swift */,
+				4A3A91FB2A3C201E00146062 /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		4A3A92452A3C286800146062 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				4A3A91FF2A3C201E00146062 /* Main.storyboard */,
+				4A3A92042A3C202100146062 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A3A91F52A3C201E00146062 /* Virtusa_Task */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A3A92202A3C202200146062 /* Build configuration list for PBXNativeTarget "Virtusa_Task" */;
+			buildPhases = (
+				4A3A91F22A3C201E00146062 /* Sources */,
+				4A3A91F32A3C201E00146062 /* Frameworks */,
+				4A3A91F42A3C201E00146062 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Virtusa_Task;
+			productName = Virtusa_Task;
+			productReference = 4A3A91F62A3C201E00146062 /* Virtusa_Task.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4A3A920B2A3C202200146062 /* Virtusa_TaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A3A92232A3C202200146062 /* Build configuration list for PBXNativeTarget "Virtusa_TaskTests" */;
+			buildPhases = (
+				4A3A92082A3C202200146062 /* Sources */,
+				4A3A92092A3C202200146062 /* Frameworks */,
+				4A3A920A2A3C202200146062 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A3A920E2A3C202200146062 /* PBXTargetDependency */,
+			);
+			name = Virtusa_TaskTests;
+			productName = Virtusa_TaskTests;
+			productReference = 4A3A920C2A3C202200146062 /* Virtusa_TaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4A3A92152A3C202200146062 /* Virtusa_TaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A3A92262A3C202200146062 /* Build configuration list for PBXNativeTarget "Virtusa_TaskUITests" */;
+			buildPhases = (
+				4A3A92122A3C202200146062 /* Sources */,
+				4A3A92132A3C202200146062 /* Frameworks */,
+				4A3A92142A3C202200146062 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A3A92182A3C202200146062 /* PBXTargetDependency */,
+			);
+			name = Virtusa_TaskUITests;
+			productName = Virtusa_TaskUITests;
+			productReference = 4A3A92162A3C202200146062 /* Virtusa_TaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A3A91EE2A3C201E00146062 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					4A3A91F52A3C201E00146062 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					4A3A920B2A3C202200146062 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 4A3A91F52A3C201E00146062;
+					};
+					4A3A92152A3C202200146062 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 4A3A91F52A3C201E00146062;
+					};
+				};
+			};
+			buildConfigurationList = 4A3A91F12A3C201E00146062 /* Build configuration list for PBXProject "Virtusa_Task" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A3A91ED2A3C201E00146062;
+			productRefGroup = 4A3A91F72A3C201E00146062 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A3A91F52A3C201E00146062 /* Virtusa_Task */,
+				4A3A920B2A3C202200146062 /* Virtusa_TaskTests */,
+				4A3A92152A3C202200146062 /* Virtusa_TaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A3A91F42A3C201E00146062 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A3A92442A3C242300146062 /* UserListTableViewCell.xib in Resources */,
+				4A3A92062A3C202100146062 /* LaunchScreen.storyboard in Resources */,
+				4A3A92032A3C202100146062 /* Assets.xcassets in Resources */,
+				4A3A92012A3C201E00146062 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A3A920A2A3C202200146062 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A3A92382A3C20F600146062 /* Posts.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A3A92142A3C202200146062 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A3A91F22A3C201E00146062 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A3A91FE2A3C201E00146062 /* ViewController.swift in Sources */,
+				4A3A92432A3C242300146062 /* UserListTableViewCell.swift in Sources */,
+				4A3A92302A3C209100146062 /* HttpClientProtocol.swift in Sources */,
+				4A3A91FA2A3C201E00146062 /* AppDelegate.swift in Sources */,
+				4A3A922B2A3C205F00146062 /* ViewModel.swift in Sources */,
+				4A3A92322A3C209100146062 /* Constants.swift in Sources */,
+				4A3A923C2A3C212700146062 /* DataModel.swift in Sources */,
+				4A3A92312A3C209100146062 /* HttpClient.swift in Sources */,
+				4A3A91FC2A3C201E00146062 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A3A92082A3C202200146062 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A3A92392A3C20F600146062 /* PostViewModel.swift in Sources */,
+				4A3A92112A3C202200146062 /* Virtusa_TaskTests.swift in Sources */,
+				4A3A92372A3C20F600146062 /* HttpClientMockupProtocol.swift in Sources */,
+				4A3A923A2A3C20F600146062 /* Mockable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A3A92122A3C202200146062 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A3A921D2A3C202200146062 /* Virtusa_TaskUITestsLaunchTests.swift in Sources */,
+				4A3A921B2A3C202200146062 /* Virtusa_TaskUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A3A920E2A3C202200146062 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A3A91F52A3C201E00146062 /* Virtusa_Task */;
+			targetProxy = 4A3A920D2A3C202200146062 /* PBXContainerItemProxy */;
+		};
+		4A3A92182A3C202200146062 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A3A91F52A3C201E00146062 /* Virtusa_Task */;
+			targetProxy = 4A3A92172A3C202200146062 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4A3A91FF2A3C201E00146062 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A3A92002A3C201E00146062 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4A3A92042A3C202100146062 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A3A92052A3C202100146062 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A3A921E2A3C202200146062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4A3A921F2A3C202200146062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A3A92212A3C202200146062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Virtusa_Task/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Virtusa-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4A3A92222A3C202200146062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Virtusa_Task/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Virtusa-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4A3A92242A3C202200146062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Virtusa-TaskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Virtusa_Task.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Virtusa_Task";
+			};
+			name = Debug;
+		};
+		4A3A92252A3C202200146062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Virtusa-TaskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Virtusa_Task.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Virtusa_Task";
+			};
+			name = Release;
+		};
+		4A3A92272A3C202200146062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Virtusa-TaskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Virtusa_Task;
+			};
+			name = Debug;
+		};
+		4A3A92282A3C202200146062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Virtusa-TaskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Virtusa_Task;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A3A91F12A3C201E00146062 /* Build configuration list for PBXProject "Virtusa_Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A3A921E2A3C202200146062 /* Debug */,
+				4A3A921F2A3C202200146062 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A3A92202A3C202200146062 /* Build configuration list for PBXNativeTarget "Virtusa_Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A3A92212A3C202200146062 /* Debug */,
+				4A3A92222A3C202200146062 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A3A92232A3C202200146062 /* Build configuration list for PBXNativeTarget "Virtusa_TaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A3A92242A3C202200146062 /* Debug */,
+				4A3A92252A3C202200146062 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A3A92262A3C202200146062 /* Build configuration list for PBXNativeTarget "Virtusa_TaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A3A92272A3C202200146062 /* Debug */,
+				4A3A92282A3C202200146062 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A3A91EE2A3C201E00146062 /* Project object */;
+}
