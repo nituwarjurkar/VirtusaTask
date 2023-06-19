@@ -7,17 +7,25 @@
 
 import Foundation
 
+
 class ViewModel {
-    var httpClient: HttpClientProtocol!
     
-    init(httpClient: HttpClientProtocol!) {
-        self.httpClient = httpClient
+    var posts : Posts?
+    weak var delegate: ViewModelProtocol?
+    var webserviceManager = WebserviceManager(httpClient: HttpClient())
+    
+    init(delegate:ViewModelProtocol?) {
+        self.delegate = delegate
     }
-    func fetchDetails<T: Codable>()async throws -> [T]? {
-        let baseUrl = Constants.baseURL + Endpoints.posts
-        guard let url = URL(string: baseUrl)else {return nil}
-        
-        return try await httpClient.fetch(url: url)
-        
+    
+     func fetchPosts(){
+        Task {
+            do {
+                posts = try await webserviceManager.fetchDetails() ?? []
+                delegate?.fetchSuccess()
+            }catch {
+                delegate?.fetchfailure(message: AlertFailure.message)
+            }
+        }
     }
 }

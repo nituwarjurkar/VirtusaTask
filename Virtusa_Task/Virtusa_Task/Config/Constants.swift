@@ -14,3 +14,9 @@ enum Constants {
 enum Endpoints {
     static let posts = "posts"
 }
+
+enum AlertFailure {
+    static let title = "Failure"
+    static let message = "Something went wrong"
+    static let button = "Ok"
+}
